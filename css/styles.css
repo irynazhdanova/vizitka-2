@@ -45,7 +45,7 @@ body {
   height: 100vh;
   background: #fff url(../img/hero-01.jpg) top center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #fff;
   overflow: hidden;
 }
@@ -91,7 +91,7 @@ hr {
   min-height: 100vh;
   background: #fff url(../img/hero-02.JPG) top center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   color: #fff;
   overflow: hidden;
 }
@@ -100,6 +100,4 @@ hr {
   margin-top: 5em;
 }
 
-
-/* MEDIA QUERIES */
 
