@@ -102,7 +102,7 @@ hr {
 
 
 /* MEDIA QUERIES */
-@media (min-width: 576px) {
+@media (max-width: 575px) {
   .header,
   .portfolio {
     background-size: contain;
