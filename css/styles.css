@@ -102,9 +102,4 @@ hr {
 
 
 /* MEDIA QUERIES */
-@media (max-width: 575px) {
-  .header,
-  .portfolio {
-    background-position: center center;
-  }
-}
+
