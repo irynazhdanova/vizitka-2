@@ -1,0 +1,94 @@
+html,
+body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+/* ARROW STYLING */
+.clip-bottom {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+.clip-top {
+  -webkit-clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 50% 20%, 100% 0, 100% 100%, 0 100%);
+}
+
+.clip-top-bottom {
+  -webkit-clip-path: polygon(50% 20%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+  clip-path: polygon(50% 20%, 100% 0, 100% 80%, 50% 100%, 0 80%, 0 0);
+}
+
+/* HEADER */
+.header {
+  height: 100vh;
+  background: #fff url(../img/hero-01.jpg) top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header-text {
+  width: 80%;
+  text-align: center;
+}
+
+.slogan {
+  font-size: 1.2rem;
+}
+
+
+/* MAIN */
+main {
+  padding: 0;
+  margin: 0;
+}
+/* SECIONS */
+.section {
+  padding: 1rem 0 0 0;
+}
+
+hr {
+  width:35px;
+  height: 3px;
+  margin-top: 0;
+}
+
+.section-content {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+/* SEVICES */
+.service-thumbnail {
+  width: 60px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  min-height: 100vh;
+  background: #fff url(../img/hero-02.JPG) top center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  overflow: hidden;
+}
+
+.portfolio .section-heading {
+  margin-top: 5em;
+}
+
