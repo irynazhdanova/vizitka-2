@@ -100,3 +100,11 @@ hr {
   margin-top: 5em;
 }
 
+
+/* MEDIA QUERIES */
+@media (min-width: 576px) {
+  .header,
+  .portfolio {
+    background-size: contain;
+  }
+}
