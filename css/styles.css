@@ -15,6 +15,11 @@ body {
   margin: 0;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
 .flex {
   display: flex;
 }
