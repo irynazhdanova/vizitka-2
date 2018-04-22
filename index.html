@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="container-fluid header d-flex-column h-100 clip-bottom">
+  <header id="header" class="container-fluid header d-flex-column h-100 clip-bottom">
 
       <!-- NAVIGATION -->
       <nav class="navbar navbar-expand-sm navbar-dark bg-transparent">
@@ -27,7 +27,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav align-items-center">
             <li class="nav-item active">
-            <a class="nav-link" href="#">Ana sayfa<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#header">Ana sayfa<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#services">Hizmetler</a>
@@ -56,6 +56,7 @@
       </div>
       <div class="clip-bottom-img"></div> 
   </header>
+  <!-- MAIN CONTENT -->
   <main class="container-fluid">
     <!-- OUR SERVICES/HIZEMTLERIMIZ -->
     <section id="services" class="container text-center our-services section position-relative">
@@ -83,7 +84,7 @@
     <!-- PORTFOLIO -->
     <section id="portfolio" class="text-center portfolio section position-relative d-flex align-content-stretch clip-bottom">
         <!-- <div class="clip-top-img"></div> -->
-        <div class="container h-100  align-self-center">
+        <div class="container h-100 align-self-center">
           <h3 class="section-heading text-uppercase">Projelerimiz</h3>
           <hr class="bg-white">
           <div class="row mx-auto justify-content-center w-100">
@@ -132,11 +133,55 @@
         </div>
         <!-- <div class="clip-bottom-img"></div>  -->
     </section>
-    <section id="contacts" class="h-100 text-center">
-        <h3 class="section-heading text-uppercase">Bize ulaşın</h3>
+    <section id="contacts" class="h-100 text-center section">
+        <div class="container h-100 align-self-center">
+          <h3 class="section-heading text-uppercase">Bize ulaşın</h3>
+          <hr class="bg-dark">
+          <div class="row mt-5">
+            <form action="#" class="col-md-10 mx-auto">
+              <div class="form-group">
+                  <label for="user-email" class="sr-only">E-posta adresiniz</label>
+                  <input type="email" id="user-email" class="form-control" placeholder="E-posta">
+              </div>
+              <div class="form-group">
+                  <label for="user-name" class="sr-only">E-posta adresiniz</label>
+                  <input type="email" id="user-name" class="form-control" placeholder="İsminiz">
+              </div>
+              <div class="form-group">
+                  <label for="user-message" class="sr-only">Mesajınız</label>
+                  <textarea class="form-control" id="user-message" rows="5" placeholder="Mesajınız"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mb-2">Gönder</button>
+            </form>
+            
+          </div>
+          <div class="row mt-4 justify-content-center mb-5">
+            <!-- <div class=""> -->
+                <div class="col-sm-3 w-75">
+                    <a href="tel:+905320000000" class="font-weight-bold text-dark d-flex flex-column" itemprop="telephone">
+                        <img src="img/Icons/phone_office-100.png" alt="office phone icon" class="contact-thumbnail">
+                      <span>0532 000 00 00</span></a>
+                </div>
+                <div class="col-sm-3 w-75">
+                      <a href="mailto:zhdanovairyna@gmail.com" class="font-weight-bold text-dark  d-flex flex-column" itemprop="telephone">
+                          <img src="img/Icons/read_message-100.png" alt="office phone icon" class="contact-thumbnail">
+                        <span>info@web-technology-time.com</span>
+                      </a>
+                </div>
+                <div class="col-sm-3 w-75 ">
+                      <a href="https://www.facebook.com" target="_blank" class="font-weight-bold text-dark d-flex flex-column" ><img src="img/Icons/facebook-100.png" alt="office phone icon" class="contact-thumbnail">
+                        <span>Facebook</span></a>
+                </div>
+              </div>
+            <!-- </div> -->
+        </div>
+          
+        
     </section>
   </main>
-
+  <footer class="container-fluid bg-dark footer">
+    Copyright@Web Technology Time 2018. Tüm hakları saklıdır.
+  </footer>
   <!-- jQuery, Poper.js, Bootstrap -->
   <!-- <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/popper.js/dist/popper.js"></script>
