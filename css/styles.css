@@ -131,17 +131,17 @@ hr {
 }
 
 .portf-item-1 {
-  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(/img/Images/p1.jpg);
+  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p1.jpg);
   background-size: cover;
 }
 
 .portf-item-2 {
-  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(/img/Images/p2.jpg);
+  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p2.jpg);
   background-size: cover;
 }
 
 .portf-item-3 {
-  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(/img/Images/p3.jpg);
+  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p3.jpg);
   background-size: cover;
 }
 
