@@ -191,7 +191,7 @@ hr {
 
 /* CONTACTS */
 .contact-thumbnail {
-  width: 30px !important;
+  width: 30px;
   height: 30px;
   margin: 20px auto 0 auto;
 }
