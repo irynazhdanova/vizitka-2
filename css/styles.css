@@ -189,6 +189,22 @@ hr {
   background-size: cover;
 }
 
+/* CONTACTS */
+.contact-thumbnail {
+  width: 30px;
+  height: 30px;
+  margin: 20px auto 0 auto;
+}
+
+/* FOOTER */
+.footer {
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 0.7rem;
+}
+
 
 
 @media all and (max-width: 767px) {
