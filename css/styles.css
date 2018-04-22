@@ -7,6 +7,10 @@ body {
   background-color: #fafcfe;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1170px;
 }
@@ -127,8 +131,33 @@ hr {
   height: 150px;
   /* width: 33.333%; */
   padding: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.project-header {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.plus {
+  color: rgba(41, 128, 185, 0.5);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  line-height: 37px;
   
 }
+
+.portfolio-item:hover .plus {
+  background-color: rgba(255, 255, 255);
+}
+
+.portfolio-item:hover .project-header {
+  color: #fff;
+}
+
+/* PORTFOLIO ITEMS THUMBNAILS */
 
 .portf-item-1 {
   background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p1.jpg);
@@ -142,6 +171,21 @@ hr {
 
 .portf-item-3 {
   background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p3.jpg);
+  background-size: cover;
+}
+
+.portf-item-4 {
+  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p4.jpg);
+  background-size: cover;
+}
+
+.portf-item-5 {
+  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p5.jpg);
+  background-size: cover;
+}
+
+.portf-item-6 {
+  background: linear-gradient(rgba(41, 128, 185, 0.5), rgba(41, 128, 185, 0.5)), url(../img/p6.jpg);
   background-size: cover;
 }
 
